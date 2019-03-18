@@ -1,0 +1,35 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.mycompany.myapp"
+        },
+        "jhipsterVersion": "5.8.2",
+        "applicationType": "monolith",
+        "baseName": "pdfgen",
+        "packageName": "com.mycompany.myapp",
+        "packageFolder": "com/mycompany/myapp",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "memcached",
+        "websocket": "spring-websocket",
+        "databaseType": "sql",
+        "devDatabaseType": "postgresql",
+        "prodDatabaseType": "postgresql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": "eureka",
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "NzQ4ZTU0NTQ5YzI4ZDVkZTJkNTJkMDI1YzdiMWVlNTdkNDMyODhiYTQ5Mjg1OTQzY2M2MTdlY2Y1N2Q1N2QxNjkwYTQwZjQyZWY4N2YzMWEwYWM2NTc4ZmRkNTQ1NDQzN2QwYjY1ZWNiYjJkODcwNTRhZmI3NWUzMTBjYTQ0OGY=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": ["protractor"],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": false,
+        "enableHibernateCache": false
+    }
+}

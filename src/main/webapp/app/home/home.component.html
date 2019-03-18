@@ -1,0 +1,32 @@
+<div class="container">
+<div class="form">
+<div class="formContent">
+            <form>
+                <h2>REPORT GENERATION FORM</h2>
+                    <!-- <h5 class="title">Fill the below details:</h5> -->
+                    <!-- <input type="text" placeholder="name"><br> -->
+                    <div class="dateContainer">
+                    Start Date:<input class="date" [(ngModel)]="startDate" type="date" name="startDate" (blur)="compareTwoDates()">
+                    End Date:<input type="date" [(ngModel)]="endDate" name="endEnd" (blur)="compareTwoDates()"><br>
+                    <div *ngIf="isError" class="alert alert-danger" (blur)="compareTwoDates()">
+                        {{ errorMessage }}
+                     </div>
+                </div>
+                    <div class="radioContainer">
+                    <input type="radio" name="formtype" value="CSV"> CSV
+                    <input class="radio" type="radio" name="formtype" value="PDF"> PDF
+                </div>
+            <input type="submit" (click)="downloadpdf()" class="submit">
+        </form> 
+        </div>
+</div>
+</div>
+
+
+<!-- <label for="formControlName_date_end" class="col-3 col-form-label">End:</label>
+<div class="col-5">
+      <input id="formControlName_date_end" class="form-control" formControlName="date_end" type="date" value="{{tageler.end | date: 'yyyy-MM-dd'}}" (blur)="compareTwoDates()">
+</div> -->
+<!-- <div *ngIf="error.isError" class="alert alert-danger">
+   {{ error.errorMessage }}
+</div> -->

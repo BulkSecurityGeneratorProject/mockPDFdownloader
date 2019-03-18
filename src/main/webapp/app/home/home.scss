@@ -1,0 +1,93 @@
+/* ==========================================================================
+Main page styles
+========================================================================== */
+
+.hipster {
+    display: inline-block;
+    width: 347px;
+    height: 497px;
+    background: url('../../content/images/jhipster_family_member_2.svg') no-repeat center top;
+    background-size: contain;
+}
+
+/* wait autoprefixer update to allow simple generation of high pixel density media query */
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (-moz-min-device-pixel-ratio: 2),
+    only screen and (-o-min-device-pixel-ratio: 2/1),
+    only screen and (min-resolution: 192dpi),
+    only screen and (min-resolution: 2dppx) {
+    .hipster {
+        background: url('../../content/images/jhipster_family_member_2.svg') no-repeat center top;
+        background-size: contain;
+    }
+}
+.container{
+    // color:white;
+    background-color: #2E8B57;
+    min-height: 800px;
+}
+form{
+    margin: 0 auto;
+    border: 1px solid grey;
+    min-height: 400px;
+    width: 70%;
+    border-radius:10px;
+    background-color: #ededed;
+    box-shadow: 2px 2px 35px 2px black;
+    position: relative;
+    top:30px;
+}
+.formContent{
+    margin: 0 auto;
+    //   border: 1px solid black;
+    min-height: 200px;
+    width: 100%;
+    border-radius:20px;
+    text-align: center;
+}
+
+input{
+// background-color: transparent;
+border-radius:5px;
+padding-left: 5px;
+color:#838383
+
+// border:1px solid green;
+}
+.submit{
+    color:white;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #2E8B57;
+    width: 70%;
+    min-height: 48px;
+    position: absolute;
+    top: 324px;
+    left: 15%;
+    box-shadow: 1px 1px 10px 1px #838383;
+
+
+}
+h2,h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    // color: white;
+    color:#838383
+}
+.dateContainer {
+margin-top: 50px;
+}
+.radioContainer{
+    position: absolute;
+    top: 200px;
+    left: 42%;
+}
+.date{
+    margin-right: 20px;
+}
+.radio{
+    margin-left: 20px;
+}
+// .alert{
+//     position: relative;
+//     top:
+// }
